@@ -64,4 +64,4 @@ ThumbToggle(status: $isOpen, backClose: .orange, backOpen: .black, thumbColor: .
 
 
 
-* This library is inspired by Lottie animations. check out toggle animations on Lottie https://lottiefiles.com/search?q=toggle&category=animations
+* This library is inspired by Lottie animations. Check out toggle animations on Lottie https://lottiefiles.com/search?q=toggle&category=animations
