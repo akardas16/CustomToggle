@@ -62,6 +62,6 @@ ThumbToggle(status: $isOpen, backClose: .orange, backOpen: .black, thumbColor: .
 | thumbColor  | shows thumb color of toggle  |
 | enableLine  | shows line on center of toggle (see style 2)  |
 
-
+* Check out `ContentView.swift` to see all styles and usages
 
 * This library is inspired by Lottie animations. Check out toggle animations on Lottie https://lottiefiles.com/search?q=toggle&category=animations
