@@ -21,8 +21,6 @@ let package = Package(
         .target(
             name: "CustomToggle",
             dependencies: []),
-        .testTarget(
-            name: "CustomToggleTests",
-            dependencies: ["CustomToggle"]),
+      
     ]
 )
