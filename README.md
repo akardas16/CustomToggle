@@ -51,17 +51,17 @@ ThumbToggle(status: $isOpen, backClose: .orange, backOpen: .black, thumbColor: .
 
 * Parameters
 
-`status -> `  shows status of toggle
-`iconClose -> `  shows systemName of icon while toggle closed 
-`iconClsClr -> `  shows color of icon while toggle closed
-`backClose -> `  shows background color of toggle while closed
+`status`  shows status of toggle\n
+`iconClose`  shows systemName of icon while toggle closed 
+`iconClsClr`  shows color of icon while toggle closed
+`backClose`  shows background color of toggle while closed
 
-`iconOpen -> `  shows systemName of icon while toggle opened
-`iconOpnClr -> `  shows color of icon while toggle opened
-`backOpen -> `  shows background color of toggle while opened
+`iconOpen`  shows systemName of icon while toggle opened
+`iconOpnClr`  shows color of icon while toggle opened
+`backOpen`  shows background color of toggle while opened
 
-`thumbColor -> `  shows thumb color of toggle
-`enableLine -> `  shows line on center of toggle (see style 2)
+`thumbColor`  shows thumb color of toggle
+`enableLine`  shows line on center of toggle (see style 2)
 
 
 * This library is inspired by Lottie animations. check out toggle animations on Lottie https://lottiefiles.com/search?q=toggle&category=animations
