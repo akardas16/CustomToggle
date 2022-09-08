@@ -8,24 +8,24 @@
 import SwiftUI
 
 @available(iOS 15.0, *)
-struct ThumbToggle: View {
+public struct ThumbToggle: View {
     
-    @Binding var status:Bool
-    @State var isOpen:Bool
-    var iconClose:String = "sun.max.fill"
-    var iconClsClr:Color = .black.opacity(0.8)
-    var backClose:Color = .black
+    @Binding public var status:Bool
+    @State public var isOpen:Bool
+    public var iconClose:String = "sun.max.fill"
+    public var iconClsClr:Color = .black.opacity(0.8)
+    public var backClose:Color = .black
     
-    var iconOpen:String = "moon.stars.fill"
-    var iconOpnClr:Color = .orange
-    var backOpen:Color = .blue.opacity(0.6)
+    public var iconOpen:String = "moon.stars.fill"
+    public var iconOpnClr:Color = .orange
+    public var backOpen:Color = .blue.opacity(0.6)
     
     
-    var thumbColor:Color = .white
+    public var thumbColor:Color = .white
         
   
     
-    init(status: Binding<Bool>, iconClose:String = "sun.max.fill", iconClsClr:Color = .orange, backClose:Color = .black,iconOpen:String = "moon.stars.fill",iconOpnClr:Color = .black.opacity(0.8),backOpen:Color = .blue.opacity(0.6),thumbColor:Color = .white) {
+    public init(status: Binding<Bool>, iconClose:String = "sun.max.fill", iconClsClr:Color = .orange, backClose:Color = .black,iconOpen:String = "moon.stars.fill",iconOpnClr:Color = .black.opacity(0.8),backOpen:Color = .blue.opacity(0.6),thumbColor:Color = .white) {
         _status = status
         self.isOpen = status.wrappedValue
         self.iconClose = iconClose
@@ -39,7 +39,7 @@ struct ThumbToggle: View {
         
     }
     
-    var body: some View {
+    public var body: some View {
         Capsule(style: .continuous)
             .fill(isOpen ? backOpen:backClose)
             .animation(.default, value: isOpen)

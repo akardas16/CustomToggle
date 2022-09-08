@@ -9,16 +9,16 @@ import SwiftUI
 
 
 @available(iOS 15, *)
-struct BounceToggle: View {
-    @Binding var status:Bool
-    @State var isOpen:Bool
-    @State var customWidth:CGFloat = 24
-    var colorClose:Color = .purple
-    var colorOpen:Color = .blue.opacity(0.6)
-    var thumbColor:Color = .white
-    var enableLine:Bool = false
+public struct BounceToggle: View {
+    @Binding public var status:Bool
+    @State public var isOpen:Bool
+    @State public var customWidth:CGFloat = 24
+    public var colorClose:Color = .purple
+    public var colorOpen:Color = .blue.opacity(0.6)
+    public var thumbColor:Color = .white
+    public var enableLine:Bool = false
     
-    init(status: Binding<Bool>, colorClose: Color = .purple, colorOpen: Color = .blue.opacity(0.6), thumbColor: Color = .white,enableLine:Bool = false) {
+    public init(status: Binding<Bool>, colorClose: Color = .purple, colorOpen: Color = .blue.opacity(0.6), thumbColor: Color = .white,enableLine:Bool = false) {
         _status = status
         self.isOpen = status.wrappedValue
         self.colorClose = colorClose
@@ -27,7 +27,7 @@ struct BounceToggle: View {
         self.enableLine = enableLine
     }
     
-    var body: some View {
+    public var body: some View {
         Capsule(style: .continuous)
             .fill(isOpen ? colorOpen:colorClose)
             .animation(.default, value: isOpen)
@@ -71,10 +71,10 @@ struct BounceToggle_Previews: PreviewProvider {
 
 
 @available(iOS 13.0, *)
-struct HiddenView: ViewModifier{
+public struct HiddenView: ViewModifier{
     var isHide:Binding<Bool>
     
-    func body(content: Content) -> some View {
+    public func body(content: Content) -> some View {
         if isHide.wrappedValue{
             content
                 .hidden()
