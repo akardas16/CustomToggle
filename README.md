@@ -9,9 +9,7 @@ Open `Xcode`, go to `File -> Swift Packages -> Add Package Dependency` and enter
 You need to add `import CustomToggle` 
 
 ## Usage
-Without 3D effect<img src="" width="20%" >
 
-![Screen_Recording_2022-09-08_at_14_53_22_AdobeExpress](https://user-images.githubusercontent.com/28716129/189116915-56eb5945-45fb-4d38-8fe1-2837a6508dfe.gif)
 ![Screen_Recording_2022-09-08_at_14_53_22_AdobeExpress (1)](https://user-images.githubusercontent.com/28716129/189117203-6531fdb3-66c0-4498-8777-c86a1645eb7e.gif)
 
 * See avaliable styles and their usages
