@@ -51,6 +51,13 @@ ThumbToggle(status: $isOpen, backClose: .orange, backOpen: .black, thumbColor: .
 
 * Parameters
 
+| Parameters    | Meanings      |
+| ------------- | ------------- |
+| status  | Content Cell  |
+| iconClose  | Content Cell  |
+
+
+
 `status`  shows status of toggle\n
 `iconClose`  shows systemName of icon while toggle closed 
 `iconClsClr`  shows color of icon while toggle closed
