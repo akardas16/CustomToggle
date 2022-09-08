@@ -11,7 +11,6 @@ You need to add `import CustomToggle`
 ## Usage
 
 ![Screen_Recording_2022-09-08_at_14_53_22_AdobeExpress (1)](https://user-images.githubusercontent.com/28716129/189117203-6531fdb3-66c0-4498-8777-c86a1645eb7e.gif)
-![Untitled](https://user-images.githubusercontent.com/28716129/189118434-98f20638-cfaa-4735-a70d-1806334e5f56.gif)
 
 * See avaliable styles and their usages
 
